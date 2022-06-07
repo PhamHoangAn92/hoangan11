@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="auth-form__form">
+        <div class="auth-form__login">
+            <div class="auth-form__group col col-half">
+                <p class="auth-form__text">Email</p>
+                <input type="text" class="auth-form__input" placeholder="Email"> 
+            </div>
+    
+            <div class="auth-form__group col col-half">
+                <p class="auth-form__text">Password</p>
+                <input type="password" class="auth-form__input" placeholder="Password"> 
+            </div>
+        </div>
+    
+        <div class="auth-form__group auth-form__specific-address col col-full">
+            <P class="auth-form__text">Address</P>
+            <input type="text" class="auth-form__input" placeholder="123 Main st"> 
+        </div>
+    
+        <div class="auth-form__group auth-form__specific-address col col-full">
+            <P class="auth-form__text">Address 2</P>
+            <input type="text" class="auth-form__input" placeholder="Apartment, sudio, or floor"> 
+        </div>
+    
+        <div class="auth-form__address-select">
+            <div class="auth-form__group col col-half">
+                <p class="auth-form__text">City</p>
+                <input type="text" class="auth-form__input" placeholder="City">
+            </div>
+    
+            <div class="auth-form__group col col-third">
+                <p class="auth-form__text">State</p>
+                <select name="Choose" id="state">
+                    <option value="">Choose...</option>
+                    <option value="">Hà Nội</option>
+                    <option value="">Hồ Chí Minh</option>
+                    <option value="">Đà Nẵng</option>
+                    <option value="">Hải Phòng</option>
+                    <option value="">Huế</option>
+                </select>
+            </div>
+        
+            <div class="auth-form__group col col-third">
+                <p class="auth-form__text">Zip</p>
+                <input type="text" class="auth-form__input" placeholder="City">
+            </div>
+        </div>
+
+        <div class="auth-form__checkbox col">
+            <input type="checkbox" class="auth-form__checkbox-square">
+            <p class="auth-form__text">Check me out</p>
+
+        </div>
+
+        <button class="btn">Sign in</button>
+    </div>
+    
+</body>
+</html>
